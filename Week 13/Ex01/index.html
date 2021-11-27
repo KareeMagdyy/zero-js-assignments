@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Learn JavaScript</title>
+  <script>
+    // Your Code Here
+    window.onload = () =>
+      [...document.links]
+        .forEach(function (el) {
+          if (el.innerText === 'Elzero' && el.classList.contains('open')) {
+            el.click();
+          }
+        });
+    ;
+  </script>
+</head>
+
+<body>
+  <a class="open" href="https://google.com" target="_blank">Google</a>
+  <a class="open" href="https://elzero.org" target="_blank">Elzero</a>
+  <a class="not" href="https://facebook.com" target="_blank">Facebook</a>
+  <a class="linked" href="https://linkedin.com" target="_blank">Elzero</a>
+</body>
+
+</html>
