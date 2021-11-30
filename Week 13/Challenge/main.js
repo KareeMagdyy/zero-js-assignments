@@ -61,3 +61,4 @@ footerSection.className = "footer";
 footerSection.textContent = "CopyRight 2021";
 footerSection.style.cssText = `background-color:#23a96f; color:#000;font-size:1.5rem; text-align: center; padding:15px`;
 document.body.appendChild(footerSection);
+//Footer End
