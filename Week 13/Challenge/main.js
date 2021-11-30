@@ -20,11 +20,11 @@ ulMenu.className = "menu";
 ulMenu.style.cssText = `display:flex; gap:2.5rem;list-style:none; font-size:1.2rem; margin:0;`;
 header.appendChild(ulMenu);
 
-const navLinks = ["Home", "About", "Service", "Contact"];
+let navLinks = ["Home", "About", "Service", "Contact"];
 
 navLinks.forEach((link) => {
-  let menuLi = document.createElement("li");
-  let menuA = document.createElement("a");
+  const menuLi = document.createElement("li");
+  const menuA = document.createElement("a");
   menuA.href = `#${link.toLocaleLowerCase()}`;
   menuA.textContent = link;
   menuA.style.cssText = `text-decoration: none; color: black;`;
