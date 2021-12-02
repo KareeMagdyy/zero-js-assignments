@@ -133,4 +133,9 @@ form .add:focus {
     font-size: 1rem;
     width: 25ch;
   }
+
+  .check-btn,
+  .del-btn {
+    font-size: 1rem;
+  }
 }
